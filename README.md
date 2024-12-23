@@ -2,7 +2,7 @@ Event Management Dashboard Documentation
 
 Project Overview
 
-The Event Management Dashboard streamlines event creation, attendee management, and task tracking. It features a responsive interface, RESTful APIs, and additional features like authentication, progress visualization, and a calendar view for events.
+The Event Management Dashboard streamlines event creation, attendee management, and task tracking. It features a responsive interface, RESTful APIs, and additional features like authentication, progress visualization, and a calendar view for events..
 
 Features
 
