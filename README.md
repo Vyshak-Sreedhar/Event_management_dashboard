@@ -1,8 +1,18 @@
-Event Management Dashboard Documentation
+Event Management Dashboard
 
-Project Overview
+Overview
 
-The Event Management Dashboard streamlines event creation, attendee management, and task tracking. It features a responsive interface, RESTful APIs, and additional features like authentication, progress visualization, and a calendar view for events..
+The Event Management Dashboard is a web-based application designed to streamline the process of organizing and managing events. It allows users to:
+
+Manage Events: Create, read, update, and delete events.
+
+Manage Attendees: Add attendees, assign them to events, and remove them as needed.
+
+Track Tasks: Monitor the progress of tasks related to events with visual progress indicators.
+
+Visualize Events: Display events on a calendar.
+
+Authentication: Secure access to the dashboard using login/logout functionality.
 
 Features
 
@@ -10,72 +20,106 @@ Core Features
 
 Event Management:
 
-Create, read, update, and delete events.
+Create events with details like name, description, location, and date.
 
-Display event details (name, description, location, date, attendees).
+Edit or delete existing events.
+
+View a list of all events.
 
 Attendee Management:
 
-Add, view, and delete attendees.
+Add and remove attendees.
 
-Assign attendees to events or tasks.
+Assign attendees to specific events and tasks.
 
 Task Management:
 
-Create tasks with deadlines and assigned attendees.
+Create tasks associated with events.
 
 Update task status (Pending/Completed).
 
-Progress Visualization:
-
-Visual indicator (progress bar) for task completion.
+Track task progress with a visual progress bar.
 
 Bonus Features
 
 Authentication:
 
-Login/logout functionality using JWT.
+Login and logout functionality using JWT.
 
-Secure access to the dashboard.
+Protected routes to ensure only authenticated users can access the dashboard.
+
+Progress Visualization:
+
+Display task completion status using a progress bar.
 
 Calendar View:
 
-Display events visually on a calendar.
+Visualize events in a calendar format.
 
 Real-Time Updates:
 
-Dynamically update task progress with WebSockets.
+Leverage WebSockets to dynamically update task progress.
 
-Setup Instructions
+Project Structure
+
+Event-Management-Dashboard/
+├── backend/
+│   ├── server.js
+│   ├── app.js
+│   ├── config/
+│   │   └── db.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── Event.js
+│   │   ├── Attendee.js
+│   │   └── Task.js
+│   ├── routes/
+│   │   ├── eventRoutes.js
+│   │   ├── attendeeRoutes.js
+│   │   └── taskRoutes.js
+│   ├── .env
+│   ├── package.json
+│   └── package-lock.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   ┒   ├── App.js
+│   ┒   └── index.js
+│   ├── public/
+│   ├── package.json
+│   └── package-lock.json
+
+Installation and Setup
 
 Prerequisites
 
-Node.js and npm installed.
+Node.js (v18.x or later)
 
-MongoDB instance (local or cloud).
+MongoDB (locally or via MongoDB Atlas)
+
+Git
 
 Backend Setup
 
-Clone the repository:
+Navigate to the backend directory:
 
-git clone <repository-link>
 cd backend
 
 Install dependencies:
 
 npm install
 
-Configure environment variables in a .env file:
+Configure the .env file:
 
+MONGO_URI=<Your MongoDB URI>
+JWT_SECRET=<Your Secret Key>
 PORT=5000
-MONGO_URI=<your-mongodb-uri>
-JWT_SECRET=<your-secret-key>
 
 Start the backend server:
 
-npm start
-
-Backend will run on http://localhost:5000.
+npm run dev
 
 Frontend Setup
 
@@ -87,168 +131,102 @@ Install dependencies:
 
 npm install
 
-Configure API URL in src/api.js:
+Start the frontend development server:
 
-const API_BASE_URL = 'http://localhost:5000/api';
-export default API_BASE_URL;
+npm run dev
 
-Start the frontend server:
+Usage
 
-npm start
+Authentication
 
-Frontend will run on http://localhost:3000.
+Navigate to the login page.
 
-API Documentation
+Enter your credentials to log in.
 
-Event Management APIs
+Once logged in, the JWT token will be stored and used for authenticated API calls.
 
-Create Event:
+Adding Events
 
-Endpoint: POST /api/events
+Go to the Event Management page.
 
-Body:
+Click "Add Event" and fill in the required details.
 
-{
-  "name": "Event Name",
-  "description": "Event Description",
-  "location": "Event Location",
-  "date": "YYYY-MM-DD"
-}
+Save the event to see it listed.
 
-Get All Events:
+Adding Attendees
 
-Endpoint: GET /api/events
+Navigate to the Attendee Management page.
 
-Update Event:
+Add attendees by filling in their details.
 
-Endpoint: PUT /api/events/:id
+Assign attendees to specific events or tasks.
 
-Body: Same as Create Event.
+Tracking Progress
 
-Delete Event:
+Open the Task Tracker page.
 
-Endpoint: DELETE /api/events/:id
+Update task statuses (Pending/Completed).
 
-Attendee Management APIs
+View the progress bar to monitor completion.
 
-Add Attendee:
+Calendar Visualization
 
-Endpoint: POST /api/attendees
+Navigate to the Calendar page.
 
-Body:
+View events visually on the calendar.
 
-{
-  "name": "Attendee Name",
-  "email": "email@example.com"
-}
+API Endpoints
 
-Get All Attendees:
+Event Routes
 
-Endpoint: GET /api/attendees
+POST /api/events - Create an event
 
-Delete Attendee:
+GET /api/events - Get all events
 
-Endpoint: DELETE /api/attendees/:id
+PUT /api/events/:id - Update an event
 
-Task Management APIs
+DELETE /api/events/:id - Delete an event
 
-Create Task:
+Attendee Routes
 
-Endpoint: POST /api/tasks
+POST /api/attendees - Add an attendee
 
-Body:
+GET /api/attendees - Get all attendees
 
-{
-  "name": "Task Name",
-  "deadline": "YYYY-MM-DD",
-  "status": "Pending",
-  "assignedAttendee": "Attendee ID",
-  "eventId": "Event ID"
-}
+DELETE /api/attendees/:id - Delete an attendee
 
-Get Tasks for an Event:
+Task Routes
 
-Endpoint: GET /api/tasks?eventId=<eventId>
+POST /api/tasks - Create a task
 
-Update Task Status:
+GET /api/tasks/:eventId - Get tasks for an event
 
-Endpoint: PUT /api/tasks/:id
+PUT /api/tasks/:id - Update task status
 
-Body:
+Technologies Used
 
-{
-  "status": "Completed"
-}
+Frontend: React, Vite, @fullcalendar/react
 
-Authentication APIs
+Backend: Node.js, Express, MongoDB
 
-Login:
+Authentication: JWT
 
-Endpoint: POST /api/auth/login
+Styling: CSS
 
-Body:
+Contributing
 
-{
-  "email": "email@example.com",
-  "password": "password"
-}
+Feel free to fork this repository and submit pull requests for any improvements or bug fixes.
 
-Features Overview
+License
 
-UI Design:
+This project is licensed under the MIT License.
 
-Clean and responsive interface.
+Acknowledgments
 
-Mobile-friendly design.
+MongoDB
 
-Progress Visualization:
+Node.js
 
-Real-time task progress updates.
+React
 
-Calendar Integration:
-
-Visualize events by date.
-
-Authentication:
-
-Secure login/logout mechanism.
-
-Validation:
-
-Prevent empty fields and ensure valid date formats.
-
-Deployment
-
-Backend Deployment
-
-Deploy on Render:
-
-Create a new service.
-
-Link the GitHub repository.
-
-Add environment variables.
-
-Access backend via the deployed URL.
-
-Frontend Deployment
-
-Deploy on Vercel:
-
-Link the GitHub repository.
-
-Ensure API_BASE_URL points to the backend URL.
-
-How to Run the Project
-
-Start the backend:
-
-cd backend
-npm start
-
-Start the frontend:
-
-cd frontend
-npm start
-
-Open http://localhost:3000 in your browser.
+FullCalendar
