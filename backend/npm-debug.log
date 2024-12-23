@@ -1,0 +1,494 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sreedhar/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/Users/sreedhar/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /Users/sreedhar/Desktop/event-management/package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No readme data.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/sreedhar/Desktop/event-management',
+8 verbose install   [ 'bcryptjs',
+8 verbose install     'cors',
+8 verbose install     'dotenv',
+8 verbose install     'express',
+8 verbose install     'jsonwebtoken',
+8 verbose install     'mongoose',
+8 verbose install     'socket.io',
+8 verbose install     'nodemon' ] ]
+9 verbose from cache /Users/sreedhar/Desktop/event-management/package.json
+10 info preinstall @
+11 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/bson/package.json
+12 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/jws/package.json
+13 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/destroy/package.json
+14 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/sift/package.json
+15 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@types/package.json
+16 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.includes/package.json
+17 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/jwa/package.json
+18 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/toidentifier/package.json
+19 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/content-type/package.json
+20 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/es-errors/package.json
+21 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/kareem/package.json
+22 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ms/package.json
+23 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/content-disposition/package.json
+24 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/math-intrinsics/package.json
+25 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/methods/package.json
+26 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/dotenv/package.json
+27 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.isstring/package.json
+28 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/punycode/package.json
+29 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/proxy-addr/package.json
+30 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mpath/package.json
+31 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/depd/package.json
+32 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@mongodb-js/package.json
+33 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/memory-pager/package.json
+34 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/pstree.remy/package.json
+35 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/range-parser/package.json
+36 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/side-channel-list/package.json
+37 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/balanced-match/package.json
+38 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.once/package.json
+39 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/bytes/package.json
+40 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/call-bind-apply-helpers/package.json
+41 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mquery/package.json
+42 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/touch/package.json
+43 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/express/package.json
+44 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/encodeurl/package.json
+45 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.isboolean/package.json
+46 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/merge-descriptors/package.json
+47 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/array-flatten/package.json
+48 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/socket.io-adapter/package.json
+49 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/picomatch/package.json
+50 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/safe-buffer/package.json
+51 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/function-bind/package.json
+52 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/is-glob/package.json
+53 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ee-first/package.json
+54 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/inherits/package.json
+55 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.isinteger/package.json
+56 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/jsonwebtoken/package.json
+57 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/iconv-lite/package.json
+58 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/anymatch/package.json
+59 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/es-define-property/package.json
+60 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@socket.io/package.json
+61 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/chokidar/package.json
+62 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/fresh/package.json
+63 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/get-intrinsic/package.json
+64 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/qs/package.json
+65 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/whatwg-url/package.json
+66 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/call-bound/package.json
+67 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.isnumber/package.json
+68 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/is-binary-path/package.json
+69 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/dunder-proto/package.json
+70 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/path-to-regexp/package.json
+71 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/hasown/package.json
+72 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/safer-buffer/package.json
+73 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/side-channel-weakmap/package.json
+74 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mime-types/package.json
+75 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/undici-types/package.json
+76 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/webidl-conversions/package.json
+77 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/type-is/package.json
+78 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mongodb/package.json
+79 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mongoose/package.json
+80 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/has-flag/package.json
+81 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/supports-color/package.json
+82 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/sparse-bitfield/package.json
+83 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/vary/package.json
+84 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/readdirp/package.json
+85 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mongodb-connection-string-url/package.json
+86 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/unpipe/package.json
+87 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/brace-expansion/package.json
+88 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/fill-range/package.json
+89 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/binary-extensions/package.json
+90 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/has-symbols/package.json
+91 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/bcryptjs/package.json
+92 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/raw-body/package.json
+93 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/semver/package.json
+94 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/http-errors/package.json
+95 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ecdsa-sig-formatter/package.json
+96 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/minimatch/package.json
+97 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/accepts/package.json
+98 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/socket.io/package.json
+99 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/cookie-signature/package.json
+100 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/forwarded/package.json
+101 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/negotiator/package.json
+102 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/body-parser/package.json
+103 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/tr46/package.json
+104 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/is-number/package.json
+105 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/undefsafe/package.json
+106 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/simple-update-notifier/package.json
+107 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/utils-merge/package.json
+108 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/side-channel/package.json
+109 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/concat-map/package.json
+110 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/cors/package.json
+111 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/serve-static/package.json
+112 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/lodash.isplainobject/package.json
+113 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/buffer-equal-constant-time/package.json
+114 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/object-assign/package.json
+115 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ignore-by-default/package.json
+116 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mime/package.json
+117 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/engine.io-parser/package.json
+118 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ipaddr.js/package.json
+119 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/cookie/package.json
+120 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/to-regex-range/package.json
+121 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/socket.io-parser/package.json
+122 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/base64id/package.json
+123 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/gopd/package.json
+124 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/escape-html/package.json
+125 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/engine.io/package.json
+126 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/statuses/package.json
+127 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/parseurl/package.json
+128 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/etag/package.json
+129 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/nodemon/package.json
+130 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/send/package.json
+131 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/is-extglob/package.json
+132 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/finalhandler/package.json
+133 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/braces/package.json
+134 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/side-channel-map/package.json
+135 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/object-inspect/package.json
+136 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/on-finished/package.json
+137 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/normalize-path/package.json
+138 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/fsevents/package.json
+139 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/ws/package.json
+140 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/debug/package.json
+141 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/glob-parent/package.json
+142 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/media-typer/package.json
+143 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/mime-db/package.json
+144 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/es-object-atoms/package.json
+145 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/setprototypeof/package.json
+146 verbose from cache /Users/sreedhar/Desktop/event-management/package.json
+147 verbose readDependencies using package.json deps
+148 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/bson/package.json
+149 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/jws/package.json
+150 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/destroy/package.json
+151 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/sift/package.json
+152 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@types/package.json
+153 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.includes/package.json
+154 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/jwa/package.json
+155 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/toidentifier/package.json
+156 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/content-type/package.json
+157 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/es-errors/package.json
+158 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/kareem/package.json
+159 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ms/package.json
+160 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/content-disposition/package.json
+161 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/math-intrinsics/package.json
+162 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/methods/package.json
+163 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/dotenv/package.json
+164 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.isstring/package.json
+165 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/punycode/package.json
+166 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/proxy-addr/package.json
+167 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mpath/package.json
+168 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/depd/package.json
+169 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@mongodb-js/package.json
+170 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/memory-pager/package.json
+171 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/pstree.remy/package.json
+172 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/range-parser/package.json
+173 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/side-channel-list/package.json
+174 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/balanced-match/package.json
+175 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.once/package.json
+176 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/bytes/package.json
+177 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/call-bind-apply-helpers/package.json
+178 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mquery/package.json
+179 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/touch/package.json
+180 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/express/package.json
+181 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/encodeurl/package.json
+182 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.isboolean/package.json
+183 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/merge-descriptors/package.json
+184 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/array-flatten/package.json
+185 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/socket.io-adapter/package.json
+186 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/picomatch/package.json
+187 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/safe-buffer/package.json
+188 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/function-bind/package.json
+189 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/is-glob/package.json
+190 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ee-first/package.json
+191 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/inherits/package.json
+192 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.isinteger/package.json
+193 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/jsonwebtoken/package.json
+194 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/iconv-lite/package.json
+195 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/anymatch/package.json
+196 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/es-define-property/package.json
+197 verbose read json /Users/sreedhar/Desktop/event-management/node_modules/@socket.io/package.json
+198 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/chokidar/package.json
+199 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/fresh/package.json
+200 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/get-intrinsic/package.json
+201 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/qs/package.json
+202 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/whatwg-url/package.json
+203 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/call-bound/package.json
+204 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.isnumber/package.json
+205 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/is-binary-path/package.json
+206 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/dunder-proto/package.json
+207 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/path-to-regexp/package.json
+208 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/hasown/package.json
+209 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/safer-buffer/package.json
+210 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/side-channel-weakmap/package.json
+211 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mime-types/package.json
+212 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/undici-types/package.json
+213 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/webidl-conversions/package.json
+214 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/type-is/package.json
+215 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mongodb/package.json
+216 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mongoose/package.json
+217 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/has-flag/package.json
+218 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/supports-color/package.json
+219 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/sparse-bitfield/package.json
+220 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/vary/package.json
+221 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/readdirp/package.json
+222 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mongodb-connection-string-url/package.json
+223 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/unpipe/package.json
+224 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/brace-expansion/package.json
+225 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/fill-range/package.json
+226 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/binary-extensions/package.json
+227 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/has-symbols/package.json
+228 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/bcryptjs/package.json
+229 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/raw-body/package.json
+230 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/semver/package.json
+231 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/http-errors/package.json
+232 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ecdsa-sig-formatter/package.json
+233 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/minimatch/package.json
+234 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/accepts/package.json
+235 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/socket.io/package.json
+236 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/cookie-signature/package.json
+237 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/forwarded/package.json
+238 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/negotiator/package.json
+239 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/body-parser/package.json
+240 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/tr46/package.json
+241 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/is-number/package.json
+242 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/undefsafe/package.json
+243 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/simple-update-notifier/package.json
+244 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/utils-merge/package.json
+245 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/side-channel/package.json
+246 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/concat-map/package.json
+247 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/cors/package.json
+248 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/serve-static/package.json
+249 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/lodash.isplainobject/package.json
+250 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/buffer-equal-constant-time/package.json
+251 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/object-assign/package.json
+252 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ignore-by-default/package.json
+253 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mime/package.json
+254 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/engine.io-parser/package.json
+255 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ipaddr.js/package.json
+256 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/cookie/package.json
+257 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/to-regex-range/package.json
+258 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/socket.io-parser/package.json
+259 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/base64id/package.json
+260 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/gopd/package.json
+261 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/escape-html/package.json
+262 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/engine.io/package.json
+263 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/statuses/package.json
+264 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/parseurl/package.json
+265 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/etag/package.json
+266 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/nodemon/package.json
+267 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/send/package.json
+268 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/is-extglob/package.json
+269 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/finalhandler/package.json
+270 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/braces/package.json
+271 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/side-channel-map/package.json
+272 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/object-inspect/package.json
+273 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/on-finished/package.json
+274 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/normalize-path/package.json
+275 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/fsevents/package.json
+276 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/ws/package.json
+277 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/debug/package.json
+278 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/glob-parent/package.json
+279 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/media-typer/package.json
+280 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/mime-db/package.json
+281 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/es-object-atoms/package.json
+282 verbose from cache /Users/sreedhar/Desktop/event-management/node_modules/setprototypeof/package.json
+283 verbose cache add [ 'bcryptjs@^2.4.3', null ]
+284 verbose cache add name=undefined spec="bcryptjs@^2.4.3" args=["bcryptjs@^2.4.3",null]
+285 verbose parsed url { pathname: 'bcryptjs@^2.4.3',
+285 verbose parsed url   path: 'bcryptjs@^2.4.3',
+285 verbose parsed url   href: 'bcryptjs@^2.4.3' }
+286 verbose cache add name="bcryptjs" spec="^2.4.3" args=["bcryptjs","^2.4.3"]
+287 verbose parsed url { pathname: '^2.4.3', path: '^2.4.3', href: '^2.4.3' }
+288 verbose addNamed [ 'bcryptjs', '^2.4.3' ]
+289 verbose addNamed [ null, null ]
+290 verbose cache add [ 'cors@^2.8.5', null ]
+291 verbose cache add name=undefined spec="cors@^2.8.5" args=["cors@^2.8.5",null]
+292 verbose parsed url { pathname: 'cors@^2.8.5',
+292 verbose parsed url   path: 'cors@^2.8.5',
+292 verbose parsed url   href: 'cors@^2.8.5' }
+293 verbose cache add name="cors" spec="^2.8.5" args=["cors","^2.8.5"]
+294 verbose parsed url { pathname: '^2.8.5', path: '^2.8.5', href: '^2.8.5' }
+295 verbose addNamed [ 'cors', '^2.8.5' ]
+296 verbose addNamed [ null, null ]
+297 verbose cache add [ 'dotenv@^16.4.7', null ]
+298 verbose cache add name=undefined spec="dotenv@^16.4.7" args=["dotenv@^16.4.7",null]
+299 verbose parsed url { pathname: 'dotenv@^16.4.7',
+299 verbose parsed url   path: 'dotenv@^16.4.7',
+299 verbose parsed url   href: 'dotenv@^16.4.7' }
+300 verbose cache add name="dotenv" spec="^16.4.7" args=["dotenv","^16.4.7"]
+301 verbose parsed url { pathname: '^16.4.7', path: '^16.4.7', href: '^16.4.7' }
+302 verbose addNamed [ 'dotenv', '^16.4.7' ]
+303 verbose addNamed [ null, null ]
+304 verbose cache add [ 'express@^4.21.2', null ]
+305 verbose cache add name=undefined spec="express@^4.21.2" args=["express@^4.21.2",null]
+306 verbose parsed url { pathname: 'express@^4.21.2',
+306 verbose parsed url   path: 'express@^4.21.2',
+306 verbose parsed url   href: 'express@^4.21.2' }
+307 verbose cache add name="express" spec="^4.21.2" args=["express","^4.21.2"]
+308 verbose parsed url { pathname: '^4.21.2', path: '^4.21.2', href: '^4.21.2' }
+309 verbose addNamed [ 'express', '^4.21.2' ]
+310 verbose addNamed [ null, null ]
+311 verbose cache add [ 'jsonwebtoken@^9.0.2', null ]
+312 verbose cache add name=undefined spec="jsonwebtoken@^9.0.2" args=["jsonwebtoken@^9.0.2",null]
+313 verbose parsed url { pathname: 'jsonwebtoken@^9.0.2',
+313 verbose parsed url   path: 'jsonwebtoken@^9.0.2',
+313 verbose parsed url   href: 'jsonwebtoken@^9.0.2' }
+314 verbose cache add name="jsonwebtoken" spec="^9.0.2" args=["jsonwebtoken","^9.0.2"]
+315 verbose parsed url { pathname: '^9.0.2', path: '^9.0.2', href: '^9.0.2' }
+316 verbose addNamed [ 'jsonwebtoken', '^9.0.2' ]
+317 verbose addNamed [ null, null ]
+318 verbose cache add [ 'mongoose@^8.9.2', null ]
+319 verbose cache add name=undefined spec="mongoose@^8.9.2" args=["mongoose@^8.9.2",null]
+320 verbose parsed url { pathname: 'mongoose@^8.9.2',
+320 verbose parsed url   path: 'mongoose@^8.9.2',
+320 verbose parsed url   href: 'mongoose@^8.9.2' }
+321 verbose cache add name="mongoose" spec="^8.9.2" args=["mongoose","^8.9.2"]
+322 verbose parsed url { pathname: '^8.9.2', path: '^8.9.2', href: '^8.9.2' }
+323 verbose addNamed [ 'mongoose', '^8.9.2' ]
+324 verbose addNamed [ null, null ]
+325 verbose cache add [ 'socket.io@^4.8.1', null ]
+326 verbose cache add name=undefined spec="socket.io@^4.8.1" args=["socket.io@^4.8.1",null]
+327 verbose parsed url { pathname: 'socket.io@^4.8.1',
+327 verbose parsed url   path: 'socket.io@^4.8.1',
+327 verbose parsed url   href: 'socket.io@^4.8.1' }
+328 verbose cache add name="socket.io" spec="^4.8.1" args=["socket.io","^4.8.1"]
+329 verbose parsed url { pathname: '^4.8.1', path: '^4.8.1', href: '^4.8.1' }
+330 verbose addNamed [ 'socket.io', '^4.8.1' ]
+331 verbose addNamed [ null, null ]
+332 verbose cache add [ 'nodemon@^3.1.9', null ]
+333 verbose cache add name=undefined spec="nodemon@^3.1.9" args=["nodemon@^3.1.9",null]
+334 verbose parsed url { pathname: 'nodemon@^3.1.9',
+334 verbose parsed url   path: 'nodemon@^3.1.9',
+334 verbose parsed url   href: 'nodemon@^3.1.9' }
+335 verbose cache add name="nodemon" spec="^3.1.9" args=["nodemon","^3.1.9"]
+336 verbose parsed url { pathname: '^3.1.9', path: '^3.1.9', href: '^3.1.9' }
+337 verbose addNamed [ 'nodemon', '^3.1.9' ]
+338 verbose addNamed [ null, null ]
+339 silly lockFile 0bcd462c-bcryptjs-2-4-3 bcryptjs@^2.4.3
+340 verbose lock bcryptjs@^2.4.3 /Users/sreedhar/.npm/0bcd462c-bcryptjs-2-4-3.lock
+341 silly lockFile 244e9b86-cors-2-8-5 cors@^2.8.5
+342 verbose lock cors@^2.8.5 /Users/sreedhar/.npm/244e9b86-cors-2-8-5.lock
+343 silly lockFile 0b35cc39-dotenv-16-4-7 dotenv@^16.4.7
+344 verbose lock dotenv@^16.4.7 /Users/sreedhar/.npm/0b35cc39-dotenv-16-4-7.lock
+345 silly lockFile 2f6d4795-express-4-21-2 express@^4.21.2
+346 verbose lock express@^4.21.2 /Users/sreedhar/.npm/2f6d4795-express-4-21-2.lock
+347 silly lockFile a507238a-jsonwebtoken-9-0-2 jsonwebtoken@^9.0.2
+348 verbose lock jsonwebtoken@^9.0.2 /Users/sreedhar/.npm/a507238a-jsonwebtoken-9-0-2.lock
+349 silly lockFile a0fdf1ee-mongoose-8-9-2 mongoose@^8.9.2
+350 verbose lock mongoose@^8.9.2 /Users/sreedhar/.npm/a0fdf1ee-mongoose-8-9-2.lock
+351 silly lockFile 654b6f26-socket-io-4-8-1 socket.io@^4.8.1
+352 verbose lock socket.io@^4.8.1 /Users/sreedhar/.npm/654b6f26-socket-io-4-8-1.lock
+353 silly lockFile e36e172f-nodemon-3-1-9 nodemon@^3.1.9
+354 verbose lock nodemon@^3.1.9 /Users/sreedhar/.npm/e36e172f-nodemon-3-1-9.lock
+355 info addNameTag [ 'bcryptjs', '^2.4.3' ]
+356 info addNameTag [ 'dotenv', '^16.4.7' ]
+357 info addNameTag [ 'cors', '^2.8.5' ]
+358 info addNameTag [ 'express', '^4.21.2' ]
+359 info addNameTag [ 'jsonwebtoken', '^9.0.2' ]
+360 info addNameTag [ 'mongoose', '^8.9.2' ]
+361 info addNameTag [ 'nodemon', '^3.1.9' ]
+362 info addNameTag [ 'socket.io', '^4.8.1' ]
+363 verbose url raw bcryptjs
+364 verbose url resolving [ 'https://registry.npmjs.org/', './bcryptjs' ]
+365 verbose url resolved https://registry.npmjs.org/bcryptjs
+366 info trying registry request attempt 1 at 23:45:11
+367 http GET https://registry.npmjs.org/bcryptjs
+368 verbose url raw cors
+369 verbose url resolving [ 'https://registry.npmjs.org/', './cors' ]
+370 verbose url resolved https://registry.npmjs.org/cors
+371 info trying registry request attempt 1 at 23:45:11
+372 http GET https://registry.npmjs.org/cors
+373 verbose url raw dotenv
+374 verbose url resolving [ 'https://registry.npmjs.org/', './dotenv' ]
+375 verbose url resolved https://registry.npmjs.org/dotenv
+376 info trying registry request attempt 1 at 23:45:11
+377 http GET https://registry.npmjs.org/dotenv
+378 verbose url raw jsonwebtoken
+379 verbose url resolving [ 'https://registry.npmjs.org/', './jsonwebtoken' ]
+380 verbose url resolved https://registry.npmjs.org/jsonwebtoken
+381 info trying registry request attempt 1 at 23:45:11
+382 http GET https://registry.npmjs.org/jsonwebtoken
+383 verbose url raw express
+384 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+385 verbose url resolved https://registry.npmjs.org/express
+386 info trying registry request attempt 1 at 23:45:11
+387 http GET https://registry.npmjs.org/express
+388 verbose url raw mongoose
+389 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+390 verbose url resolved https://registry.npmjs.org/mongoose
+391 info trying registry request attempt 1 at 23:45:11
+392 http GET https://registry.npmjs.org/mongoose
+393 verbose url raw nodemon
+394 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+395 verbose url resolved https://registry.npmjs.org/nodemon
+396 info trying registry request attempt 1 at 23:45:11
+397 http GET https://registry.npmjs.org/nodemon
+398 verbose url raw socket.io
+399 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+400 verbose url resolved https://registry.npmjs.org/socket.io
+401 info trying registry request attempt 1 at 23:45:11
+402 http GET https://registry.npmjs.org/socket.io
+403 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+404 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+405 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+406 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+407 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+408 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+409 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+410 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+411 info trying registry request attempt 2 at 23:45:21
+412 http GET https://registry.npmjs.org/cors
+413 info trying registry request attempt 2 at 23:45:21
+414 http GET https://registry.npmjs.org/express
+415 info trying registry request attempt 2 at 23:45:21
+416 http GET https://registry.npmjs.org/bcryptjs
+417 info trying registry request attempt 2 at 23:45:21
+418 http GET https://registry.npmjs.org/dotenv
+419 info trying registry request attempt 2 at 23:45:21
+420 http GET https://registry.npmjs.org/jsonwebtoken
+421 info trying registry request attempt 2 at 23:45:21
+422 http GET https://registry.npmjs.org/mongoose
+423 info trying registry request attempt 2 at 23:45:21
+424 http GET https://registry.npmjs.org/nodemon
+425 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+426 info trying registry request attempt 2 at 23:45:21
+427 http GET https://registry.npmjs.org/socket.io
+428 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+429 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+430 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+431 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+432 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+433 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+434 info retry will retry, error on last attempt: Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+435 info trying registry request attempt 3 at 23:46:21
+436 http GET https://registry.npmjs.org/cors
+437 info trying registry request attempt 3 at 23:46:21
+438 http GET https://registry.npmjs.org/jsonwebtoken
+439 info trying registry request attempt 3 at 23:46:21
+440 http GET https://registry.npmjs.org/bcryptjs
+441 info trying registry request attempt 3 at 23:46:21
+442 http GET https://registry.npmjs.org/dotenv
+443 info trying registry request attempt 3 at 23:46:21
+444 http GET https://registry.npmjs.org/express
+445 silly lockFile 244e9b86-cors-2-8-5 cors@^2.8.5
+446 silly lockFile 244e9b86-cors-2-8-5 cors@^2.8.5
+447 info trying registry request attempt 3 at 23:46:21
+448 http GET https://registry.npmjs.org/nodemon
+449 error Error: 4391044608:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+449 error
+449 error     at CleartextStream._puller (tls.js:670:24)
+449 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+449 error     at SecurePair.cycle (tls.js:894:20)
+449 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+449 error     at Socket.ondata (stream.js:38:26)
+449 error     at Socket.EventEmitter.emit (events.js:96:17)
+449 error     at TCP.onread (net.js:397:14)
+450 error If you need help, you may report this log at:
+450 error     <http://github.com/isaacs/npm/issues>
+450 error or email it to:
+450 error     <npm-@googlegroups.com>
+451 error System Darwin 21.6.0
+452 error command "/Users/sreedhar/.nvm/v0.8.28/bin/node" "/Users/sreedhar/.nvm/v0.8.28/bin/npm" "install"
+453 error cwd /Users/sreedhar/Desktop/event-management/backend
+454 error node -v v0.8.28
+455 error npm -v 1.2.30
+456 verbose exit [ 1, true ]
